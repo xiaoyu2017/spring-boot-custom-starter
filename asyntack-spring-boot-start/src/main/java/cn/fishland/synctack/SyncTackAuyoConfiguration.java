@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Configuration;
  */
 @Configuration
 @EnableConfigurationProperties(SyncTackProperties.class)
-public class SynctackAuyoConfiguration {
+public class SyncTackAuyoConfiguration {
 
     @Bean
     public SyncTack createRunnable() {
